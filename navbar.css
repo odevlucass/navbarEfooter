@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #1c2c27;
+}
+.containerNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.containerImgNavbar {
+  height: 100%;
+}
+
+.containerImgNavbar img {
+  width: 100%;
+}
+
+.menu ul {
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.botaoContribuicao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 35px;
+  border-radius: 40px;
+  background: #2c473e;
+  background: linear-gradient(
+    90deg,
+    rgba(44, 71, 62, 1) 0%,
+    rgba(107, 129, 58, 1) 100%
+  );
+}
+
+.textoContribuicao {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.botaoContribuicaoParteBranca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 100%;
+  background: #fff;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.iconContribuicao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
